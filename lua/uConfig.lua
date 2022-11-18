@@ -3,7 +3,7 @@ local M = {
 
   keys = {
 
-    leader_key = " ",
+    -- leader_key = " ",
 
     -- : 模式
     c_next_item = "<C-j>",

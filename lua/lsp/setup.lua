@@ -48,6 +48,9 @@ mason_config.setup({
     "gopls",
     "clangd",
     "cmake",
+    "volar",
+    "svelte",
+    "astro",
   },
 })
 
@@ -73,6 +76,7 @@ local servers = {
   -- remark_ls = require("lsp.config.markdown"),
   clangd = require("lsp.config.clangd"),
   cmake = require("lsp.config.cmake"),
+  svelte = require("lsp.config.svelte"),
 }
 
 for name, config in pairs(servers) do
